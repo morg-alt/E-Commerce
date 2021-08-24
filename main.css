@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background: rgb(240, 180, 101);
 }
 .navbar .nav-link{
     font-size:14px;
@@ -11,7 +12,7 @@ body{
     outline:none!important;
 }
 .bg-black{
-    background:black;
+    background:rgb(240, 180, 101);
 }
 /*==========Slider==========*/
 .carousel-item{
@@ -29,15 +30,15 @@ body{
 }
 .carousel-image-3{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)),
-    url('./Images/image1.jpg');
+    url('./Images/hero-image3.jpg');
     background-size:cover;
 }
 .title-color{
-    color:white;
+    color:lightsteelblue;
 }
 .btn-color{
     background:black;
-    color:gray;
+    color: lightsteelblue;
 }
 .btn-color:hover{
     color:white;
@@ -82,13 +83,16 @@ slide-btn:active{
     display: inline-block;
     font-size: 32px;
     margin-bottom: 16px;
-    color: #000;
     padding: 8px 16px;
+    color:lightsteelblue;
 }
 /*=========End of Service Section=========*/
 /*=========Product Section========*/
 #products{
-    background: #000;
+    background:lightsteelblue;
+}
+.text-color{
+    color: crimson;
 }
 .product-title{
     color: #fff;
@@ -102,6 +106,7 @@ slide-btn:active{
     transition-duration: 0.3s;
     transition-property: transform;
     cursor: pointer;
+    background: rgb(240, 180, 101);
 }
 .single-item:before{
     pointer-events: none;
@@ -147,7 +152,7 @@ slide-btn:active{
     margin-top: 25px;
 }
 .text-color{
-    color: black;
+    color:crimson ;
 }
 .watch-img{
     margin-top: 35px;
